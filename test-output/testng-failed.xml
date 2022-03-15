@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Download Payslips Projects]">
+  <test thread-count="5" name="Download Paylips(failed)">
+    <classes>
+      <class name="PageTest.DownloadPaySlipPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="BookshlevesTest"/>
+        </methods>
+      </class> <!-- PageTest.DownloadPaySlipPageTest -->
+    </classes>
+  </test> <!-- Download Paylips(failed) -->
+</suite> <!-- Failed suite [Download Payslips Projects] -->
